@@ -1,0 +1,19 @@
+.company-container{
+    justify-content: space-around;
+    grid-area: 1rem;
+    
+}
+.company-container img{
+    width: 9rem;
+    cursor: pointer;
+      transition: transform 0.3s ease;
+}
+
+#KclLogo{
+    border-radius: 15px;
+}
+
+.company-container img:hover {
+  scale: (2);
+   transform: scale(1.2);
+}

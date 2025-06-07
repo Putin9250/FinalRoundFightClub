@@ -1,38 +1,44 @@
 [
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "name": "Mix-Martial Arts",
+    "price": "3,000 / Month(5 Days)",
+    "detail": "MMA combines striking and grappling techniques from various martial arts into one full-contact sport",
+    "image": "./r1.webp"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
+    "name": "Gymnastics",
+    "price": "2,500 / 15 Days (T,T,S)",
+    "detail": "Gymnastics is a sport of acrobatic movement, strength, and flexibility performed on various apparatus",
+    "image": "./r2.jpg"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "name": "Karate",
+    "price": "2,500 / 15 Days (M,W,F)",
+    "detail": "Karate is a striking-based martial art focused on punches, kicks, blocks, and disciplined self-defense techniques",
+    "image": "./r3.jpg"
   },
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "name": "Brazilian Jiu-Jitsu (BJJ)",
+    "price": "2,500 / Month(5 Days)",
+    "detail": "Brazilian Jiu-Jitsu (BJJ) is a grappling-based martial art that focuses on ground fighting, submissions, and leverage over strength",
+    "image": "./r4.webp"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
+    "name": "Wrestling",
+    "price": "2,500 / Month(5 Days)",
+    "detail": "Wrestling is a grappling sport that involves throws, takedowns, pins, and control techniques to overpower an opponent",
+    "image": "./r5.jpg"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "name": "Boxing",
+    "price": "3,000 / Month(5 Days)",
+    "detail": "Boxing is a striking sport that focuses on punches, footwork, and defensive movements to outmaneuver and outscore an opponent",
+    "image": "./r6.jpg"
+  },
+  {
+    "name": "Taekwondo",
+    "price": "2,500 / Month(5 Days)",
+    "detail": "Taekwondo is a Korean martial art known for its fast, high, and spinning kicks, combining self-defense with discipline and athleticism",
+    "image": "./r7.jpeg"
   }
 ]

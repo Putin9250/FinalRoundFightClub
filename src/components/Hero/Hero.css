@@ -1,0 +1,148 @@
+.hero-wrapper {
+  color: white;
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+.hero-container {
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+/*Left Side*/
+
+.hero-left {
+  gap: 3rem;
+  align-items: flex-start;
+  text-align: left;
+  padding-left: 0rem; /* If padding is being inherited */
+  margin-left: 0rem;
+}
+.innerWidth {
+  width: 100%;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.padding {
+  padding: 1.2rem 1.4rem;
+}
+.hero-title h1{
+  position: relative;
+  z-index: 1;
+  font-weight: 600;
+  font-size: 4.8rem;
+  line-height: 4rem;
+}
+
+.orange-circle {
+  height: 4rem;
+  width: 4rem;
+  background: var(--orange-gradient);
+  border-radius: 100%;
+  position: absolute;
+  right: 55%;
+  top: -5%;
+  z-index: -1;
+}
+.search-bar {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  border: 3px solid rgba(120, 120, 120, 0.374);
+  padding: 0.5rem 1rem;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.stats {
+  width: 100%;
+  justify-content: space-between;
+  font-size: 1.4rem;
+}
+
+.orangespan {
+  color: orange;
+  font-weight: 400;
+}
+
+/* Right Side */
+.img-container {
+  width: 30rem;
+  height: 35rem;
+  overflow: hidden;
+}
+
+.img-container > img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1024px) {
+  .hero-container {
+    justify-content: center !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-title h1{
+    line-height: 4.7rem !important;
+  }
+  .search-bar {
+    flex-direction: row !important; /* Add !important if necessary to override */
+    flex-wrap: nowrap;
+    font-size: 0.7rem;
+  }
+  .img-container {
+    width: 95% !important;
+    height: 15rem;
+  }
+  .stats {
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  .hero-right {
+    width: 100%;
+  }
+  .stat > :nth-child(1) {
+    font-size: 1.5rem;
+  }
+  .stat > :nth-child(2) {
+    font-size: 0.8rem;
+  }
+   .search-bar svg {
+    width: 28px !important;
+    height: 28px !important;
+  }
+  .orange-circle {
+  right: 55% !important;
+  top: -4% !important;
+  
+}
+}
+
+
+@media (min-width: 768px) and (max-width: 510px) {
+  .orange-circle {
+  right: 52% !important;
+ 
+}
+}
+@media (max-width: 475px) {
+  .orange-circle {
+  right: 40% !important;
+}
+}
+@media (max-width: 375px) {
+  .orange-circle {
+  right: 32% !important;
+   
+}
+}
+
+@media (max-width: 320px) {
+  .orange-circle {
+  right: 24% !important;
+  
+}
+}

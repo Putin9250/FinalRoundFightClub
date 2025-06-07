@@ -1,0 +1,63 @@
+.h-wrapper {
+  color: white;
+}
+
+.h-container {
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: var(--secondary);
+  position: relative;
+}
+
+.h-menu {
+  gap: 2rem;
+  transition: transform 0.4s ease-in-out;
+}
+
+.h-menu > *:hover {
+  cursor: pointer;
+}
+
+.menu-icon {
+  display: none;
+  z-index: 101;
+}
+
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .h-menu {
+    color: var(--black);
+    position: fixed;
+    top: 6rem;
+    right: 0rem;
+
+    max-width: 300px;
+    background: white;
+    flex-direction: column;
+    z-index: 100;
+    font-weight: 500;
+    gap: 2rem;
+    padding: 5rem 2rem;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+    align-items: flex-start;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
+    transform: translateX(100%);
+  }
+
+  .h-menu.open {
+    transform: translateX(0);
+  }
+
+  /* Specific adjustments for very small screens */
+  @media (max-width: 350px) {
+    .h-menu {
+      padding: 4rem 1.5rem;
+    }
+  }
+}
