@@ -10,20 +10,19 @@ const Charges = () => {
     <section className="r-wrapper" id="charges">
       <div className="paddings innerWidth r-container">
         <div className="r-head flexColStart">
-          <span className="orangeText">Style & Cost Breakdown</span>
-          <span className="primaryText primaryTextFightStyle">Fighting Styles & Sports</span>
+          <span className="orangeText">Style Breakdown</span>
+          <span className="primaryText primaryTextFightStyle">
+            Fighting Styles & Sports
+          </span>
         </div>
         <Swiper {...sliderSettings}>
           <SliderButtons />
           {data.map((card, i) => (
             <SwiperSlide key={i}>
               <div className="flexColStart r-card">
-                <img src={card.image} alt={card.name} loading="lazy"/>
+                <img src={card.image} alt={card.name} loading="lazy" />
 
-                <span className="secondaryText r-price">
-                  <span style={{ color: "orange" }}>₹</span>
-                  <span>{card.price}</span>
-                </span>
+                <span className="secondaryText r-price"></span>
                 <span className="primaryText">{card.name}</span>
                 <span className="secondaryText">{card.detail}</span>
               </div>

@@ -23,7 +23,7 @@ const Header = () => {
     <OutsideClickHandler onOutsideClick={ () => {setMenuOpened(false)}}>        <div 
           className={`flexCenter h-menu ${menuOpened ? "open" : ""}`}
         >
-          <a href="#charges">Charges</a>
+          <a href="#charges">Disciplines</a>
           <a href="#values">Our Value</a>
           <a href="#started">Get Started</a>
           <button className="button">

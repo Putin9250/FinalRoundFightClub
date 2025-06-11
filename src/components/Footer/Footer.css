@@ -1,14 +1,52 @@
-.f-container{
-    justify-content: space-between;
+.f-container {
+  justify-content: space-between;
 }
 
-.f-left{
-    gap: 1rem;
+.f-left {
+  gap: 1rem;
 }
 
-.f-menu{
-    gap: 1.5rem;
-    margin-top: 1.5rem;
-    font-weight: 500;
-    cursor: pointer;
+.f-menu {
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.footer-copy {
+  margin-top: 2rem;
+}
+.social-icons {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.social-icons a {
+  font-size: 24px;
+  transition: transform 0.2s ease;
+  display: inline-flex;
+  color: inherit;
+}
+
+.social-icons a[href*="linkedin"] {
+  color: #0a66c2;
+}
+
+.social-icons a[href*="mailto"] {
+  color: #ea4335;
+}
+
+.social-icons a[href*="wa.me"] {
+  color: #25d366;
+}
+
+.social-icons a:hover {
+  transform: scale(1.3);
+}
+
+@media (max-width: 340px) {
+  .f-menu {
+    gap: 0.5rem;
+  }
 }

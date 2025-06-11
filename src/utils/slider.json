@@ -1,44 +1,57 @@
 [
   {
     "name": "Mix-Martial Arts",
-    "price": "3,000 / Month(5 Days)",
     "detail": "MMA combines striking and grappling techniques from various martial arts into one full-contact sport",
     "image": "./r1.webp"
   },
   {
     "name": "Gymnastics",
-    "price": "2,500 / 15 Days (T,T,S)",
     "detail": "Gymnastics is a sport of acrobatic movement, strength, and flexibility performed on various apparatus",
     "image": "./r2.jpg"
   },
   {
     "name": "Karate",
-    "price": "2,500 / 15 Days (M,W,F)",
     "detail": "Karate is a striking-based martial art focused on punches, kicks, blocks, and disciplined self-defense techniques",
     "image": "./r3.jpg"
   },
   {
     "name": "Brazilian Jiu-Jitsu (BJJ)",
-    "price": "2,500 / Month(5 Days)",
     "detail": "Brazilian Jiu-Jitsu (BJJ) is a grappling-based martial art that focuses on ground fighting, submissions, and leverage over strength",
     "image": "./r4.webp"
   },
   {
     "name": "Wrestling",
-    "price": "2,500 / Month(5 Days)",
     "detail": "Wrestling is a grappling sport that involves throws, takedowns, pins, and control techniques to overpower an opponent",
     "image": "./r5.jpg"
   },
   {
     "name": "Boxing",
-    "price": "3,000 / Month(5 Days)",
     "detail": "Boxing is a striking sport that focuses on punches, footwork, and defensive movements to outmaneuver and outscore an opponent",
     "image": "./r6.jpg"
   },
   {
     "name": "Taekwondo",
-    "price": "2,500 / Month(5 Days)",
     "detail": "Taekwondo is a Korean martial art known for its fast, high, and spinning kicks, combining self-defense with discipline and athleticism",
     "image": "./r7.jpeg"
+  },
+  {
+    "name": "Muay Thai",
+    "detail": "Muay Thai is a traditional Thai martial art known as the 'Art of Eight Limbs' that uses punches, kicks, elbows, and knee strikes with a strong emphasis on power and clinch fighting.",
+    "image": "./r8.jpg"
+  },
+  {
+    "name": "Judo",
+    "detail": "Judo is a Japanese martial art focused on throws, pins, and submission techniques, emphasizing leverage and balance rather than strength. It promotes discipline, respect, and physical fitness.",
+    "image": "./r9.jpg"
+  },
+  {
+    "name": "Kickboxing",
+    "detail": "Kickboxing is a high-energy combat sport combining punches and kicks from boxing and karate. It’s known for improving strength, endurance, and striking skills in both self-defense and fitness.",
+    "image": "./r10.jpg"
+  },
+  {
+    "name": "Krav Maga",
+    "detail": "Krav Maga is a practical and aggressive self-defense system developed for the Israeli military, focusing on real-world situations and quick neutralization of threats using strikes, defenses, and weapon disarms.",
+    "image": "./r11.jpeg"
   }
 ]
